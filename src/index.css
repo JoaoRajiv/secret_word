@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(22, 4, 40);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(22, 4, 40, 1) 8%,
+    rgba(4, 16, 68, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(22, 4, 40, 1) 8%,
+    rgba(4, 16, 68, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(22, 4, 40, 1) 8%,
+    rgba(4, 16, 68, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#160428",endColorstr="#041044",GradientType=1);
+  color: white;
+  text-shadow: -3px 1px 4px rgba(0, 0, 0, 0.38);
+}
+
+button {
+  background: #1646a0;
+  color: #fff;
+  padding: 0 45px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.85);
+}
